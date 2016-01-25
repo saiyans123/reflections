@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+You make a .git folder to track histroy changes on current folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working dir -> Staging area -> Repo
+Staging area is the phase where you choose what file needed to be tracked. Repo is the directory of the file that are being tracked.
+This bring the value of flexibility to choose what file to be tracked.
