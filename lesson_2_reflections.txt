@@ -5,3 +5,26 @@ How is the staging area different from the working directory and the repository?
 Working dir -> Staging area -> Repo
 Staging area is the phase where you choose what file needed to be tracked. Repo is the directory of the file that are being tracked.
 This bring the value of flexibility to choose what file to be tracked.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can review the changes first with git diff to make sure one commit per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches is helpul in organizing commit for each logical update
+
+How do the diagrams help you visualize the branch structure?
+it helps us to see more clearly which parents are which branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Menggabungkan perubahan yang terjadi pada 2 cabang. 
+Untuk mengetahui alur history branch mana yang mengandung perubahan mana.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automerge:
+Pro: Save time
+Con: Mungkin salah
+
+Merge manual
+Pro: Bisa memilih logic yang di save
+Con: Takes time to process
+
